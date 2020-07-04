@@ -105,5 +105,3 @@ def comment_remove(request, pk):
     return redirect('post_detail', pk=comment.post.pk)
 
 
-def approved_comments(self):
-    return self.comments.filter(approved_comment=True)
